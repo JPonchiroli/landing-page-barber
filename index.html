@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>Landing Page</title>
+</head>
+<body>
+  <div class="bg-home">
+    <header>
+      <nav class="header-content container">
+        <div class="header-icons" data-aos="fade-down">
+          <a href="#">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-tiktok fa-2x"></i>
+          </a>
+        </div>
+
+        <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+          <img src="images/logo.svg" alt="Barber Logo" data-aos-flip="up" data-aos-delay="300" data-aos-duration="1500"/>
+        </div>
+
+        <div data-aos="fade-down">
+          <a class="header-button" href="#">Schedule Appointment</a>
+        </div>
+      </nav>
+
+      <main class="hero-container container" data-aos="fade-up" data-aos-delay="400">
+        <h1>STYLE IS A REFLECTION OF YOUR ATTITUDE AND PERSONALITY</h1>
+        <p>Opening Hours: 9:00am to 7:00pm</p>
+        <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Schedule%20Your%20Appointment" class="button-contact" target="_blank">Schedule Time</a>
+      </main>
+    </header>
+  </div>
+
+  <section class="about">
+    <div class="container about-content">
+      <div data-aos="zoom-in" data-aos-delay="100">
+        <img src="images/images.svg" alt="Images about the Barber">
+      </div>
+
+      <div class="about-description" data-aos="zoom-out-left" data-aos-delay="250">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id varius eros. Nam eros magna, molestie ut congue sit amet, laoreet ac nisl. Nulla semper velit tellus, at elementum felis lacinia a.</p>
+        <p>Opening Hours: <strong>9:00am</strong> to <strong>7:00pm</strong></p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="service-content container">
+      <h2>SERVICES</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id varius eros. Nam eros magna, molestie ut congue sit amet, laoreet ac nisl. Nulla semper velit tellus, at elementum felis lacinia a.</p>
+    </div>
+
+    <section class="haircuts">
+      <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+        <img src="images/corte1.png" alt="Normal Cut"/>
+        <div class="haircut-info">
+          <strong>Normal Cut</strong>
+          <button>R$ 45,00</button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+        <img src="images/corte2.png" alt="Normal Cut"/>
+        <div class="haircut-info">
+          <strong>Full Beard</strong>
+          <button>R$ 35,00</button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+        <img src="images/corte3.png" alt="Normal Cut"/>
+        <div class="haircut-info">
+          <strong>Cut and Beard</strong>
+          <button>R$ 85,00</button>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <div class="services">
+    <h2>Come Meet</h2>
+  </div>
+
+  <iframe 
+  width="100%"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.4535898297368!2d-49.071745724989!3d-26.92083117664234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18c3029c59cf%3A0x274ee00fa5617468!2sNeumarkt%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1699105307972!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <footer class="footer">
+    <div class="footer-icons">
+      <a href="#">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fa-brands fa-tiktok fa-2x"></i>
+      </a>
+    </div>
+
+    <div>
+      <img src="images/logo.svg" alt="Barber Logo">
+    </div>
+
+    <p>Copyright 2023 | Dev Barber - All rights reserved </p>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Schedule%20Your%20Appointment" 
+     class="btn-whatssapp"
+     target="_blank"
+     data-aos="zoom-in-up" data-aos-delay="400"
+     >
+    <img src="images/whatssapp.svg" alt="Whatssapp Button"/>
+    <span class="tolltip-text">Schedule your Appointment</span>
+  </a>
+
+  <script src="index.js"></script>
+</body>
+<script src="https://kit.fontawesome.com/87c9f9014b.js"crossorigin="anonymous"></script>+
+</html>
